@@ -9,7 +9,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/niche-validation-test">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/agentos" replace />} />
         <Route path="/agentos" element={<AgentOS />} />
