@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/niche-validation-test/', // GitHub Pages base path
+  base: '/', // Custom domain - no subdirectory needed
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
